@@ -39,3 +39,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # food-recipe-nextjs
 A NextJS project where you can share your recepies
 
+Package used:
+
+better-sqlite3
+install: npm install better-sqlite3
+
+Make a initdb.js file with your dummy data that needs to be seeded into your local db.
+
+Execute with node initdb.js and you should see a file (in this case meals.db) with your content.
