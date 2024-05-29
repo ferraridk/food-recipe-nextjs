@@ -47,3 +47,9 @@ install: npm install better-sqlite3
 Make a initdb.js file with your dummy data that needs to be seeded into your local db.
 
 Execute with node initdb.js and you should see a file (in this case meals.db) with your content.
+
+Slugyfi
+install: npm install slugify
+
+XSS
+install: npm install xss
